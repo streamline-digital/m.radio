@@ -61,7 +61,7 @@ Generate a playlist of LPs from any genre and year:
 
 ```bash
 
-    sh radio.sh % % lp
+sh radio.sh % % lp
 
 ```
 
@@ -69,7 +69,7 @@ Play all releases initially matching some string:
 
 ```bash
 
-    sh radio.sh -r "entombed"
+sh radio.sh -r "entombed"
 
 ```
 
@@ -77,7 +77,7 @@ Play an existing playlist;
 
 ```bash
 
-    sh radio.sh -p <playlist>
+sh radio.sh -p <playlist>
 
 ```
 
@@ -87,14 +87,11 @@ Pressing the "s" key after playback saves the preceding track to a file called `
 
 ## Dependencies
 
-    mplayer: Required for playing audio files.
+`mplayer` is required for playing audio files.
 
 ## License
 
-This script is licensed under the MIT License. Feel free to modify and distribute it according to the terms of the license.
-
-
-
+This project is licensed under the `MIT License`. 
 
 
 
