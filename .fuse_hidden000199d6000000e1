@@ -183,7 +183,7 @@ printf "%s\n" "${playlist[@]}" > "${library}/$playlist_file"
 
 # Play each audio file using mplayer
 
-clear
+#clear
 
 for audio_file in "${playlist[@]}"; do
 
