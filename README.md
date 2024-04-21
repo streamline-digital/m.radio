@@ -36,7 +36,7 @@ Trailing parameters can be omitted.
 
 ## Flags
 
-    -r, --release <release>: Play releases in order by passing a string that matches the initial part of a release directory.
+    -r, --release <release>: Play an entire release that initially matches a string.
     -p, --playlist <playlist>: Play an existing playlist.
 
 ## Examples
