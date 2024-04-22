@@ -3,9 +3,13 @@
 # Global variables
 
 playlist=()
+
 directories=""
-depth=1
+
+depth=2
+
 IFS=$'\n'
+
 light_blue='\033[1;36m' 
 reset_color='\033[0m' 
 

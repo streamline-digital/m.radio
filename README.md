@@ -16,7 +16,7 @@ sh radio.sh <library_path> <number_of_tracks> <genre> <year> <format>
 
 ```
 
-An alias can be used to more easily instantiate the script
+An alias is more convenient:
 
 ```bash
 
