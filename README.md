@@ -26,23 +26,23 @@ alias radio='sh <path_to_script> <path_to_library>'
 
 ## Parameters
 
-`<library_path>` - path to the library directory (optional)
+`<library_path>` path to the library directory (optional)
 
-`<number_of_tracks>` - number of tracks to include in the playlist (optional)
+`<number_of_tracks>` number of tracks to include in the playlist (optional)
 
-`<genre>` - genre of the release
+`<genre>` genre of the release
 
-`<year>` - year of release
+`<year>` year of release
 
-`<format>` - type of release (e.g., "lp", "demo")
+`<format>` type of release (e.g., "lp", "demo")
 
 Trailing parameters can be omitted.
 
 ## Flags
 
-`-r, --release <release>` - play an entire release that initially matches a string.
+`-r, --release <release>` play an entire release that initially matches a string.
 
-`-p, --playlist <playlist>` - play an existing playlist.
+`-p, --playlist <playlist>` play an existing playlist.
 
 ## Examples
 
