@@ -12,7 +12,7 @@ In the parent directory the script can be executed using the following command:
 
 ```bash
 
-sh radio.sh <library_path> <number_of_tracks> <genre> <year> <release_type>
+sh radio.sh <library_path> <number_of_tracks> <genre> <year> <format>
 
 ```
 
@@ -30,7 +30,7 @@ alias radio='sh <path_to_script> <path_to_library>'
     <number_of_tracks>: Number of tracks to include in the playlist (optional)
     <genre>: Genre of the tracks
     <year>: Year of release
-    <release_type>: Type of release (e.g., "lp", "demo")
+    <format>: Type of release (e.g., "lp", "demo")
 
 Trailing parameters can be omitted.
 
