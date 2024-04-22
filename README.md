@@ -53,7 +53,7 @@ Generate a playlist of 90s brutal death metal demos:
 
 ```bash
 
-sh radio.sh brutal 19.. demo
+sh radio.sh brutal 199. demo
 
 ```
 
