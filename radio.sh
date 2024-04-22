@@ -72,6 +72,8 @@ if [[ "$1" == "-p" || "$1" == "--playlist"  ]]; then
 
   directories=$(cat $2)
 
+  if [[ "$directories" == "" ]]; then echo "...playlist not found"; exit 0; fi
+
   shift; shift
 
 fi
@@ -83,6 +85,8 @@ if [[ "$1" == "-r" || "$1" == "--release" ]]; then
   release_pattern=$(printf "%q" "$2")
 
   releases=$(find $library -maxdepth $depth -type d | grep -P "^$library/$release_pattern.*" | sort)
+
+  if [[ "$releases" == "" ]]; then echo "...release not found"; exit 0; fi
 
   for release in $releases; do
 
