@@ -4,7 +4,7 @@
 
 The `radio.sh` script generates and plays a playlist of audio tracks matching on genre, year, and release format. 
 
-It is intended for use only with a specifically structured library of audio files and may not be widely useful.
+It is intended operate on a specifically structured library of audio files and may not be generally useful.
 
 ## Usage
 
@@ -83,7 +83,7 @@ sh radio.sh -p <playlist>
 
 ## Saving tracks
 
-Pressing the "s" key after playback saves the preceding track to a file called `favorites.txt` in the <library> directory.
+Pressing the "s" key after playback saves the preceding track to a file called `favorites.txt` in the `<library>` directory.
 
 ## Dependencies
 
