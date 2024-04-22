@@ -26,11 +26,11 @@ alias radio='sh <path_to_script> <path_to_library>'
 
 ## Parameters
 
-    <library_path>: Path to the library directory. (Optional)
-    <number_of_tracks>: Number of tracks to include in the playlist. (Optional)
-    <genre>: Genre of the tracks.
-    <year>: Year of release.
-    <release_type>: Type of release (e.g., "lp", "demo").
+    <library_path>: Path to the library directory (optional)
+    <number_of_tracks>: Number of tracks to include in the playlist (optional)
+    <genre>: Genre of the tracks
+    <year>: Year of release
+    <release_type>: Type of release (e.g., "lp", "demo")
 
 Trailing parameters can be omitted.
 
